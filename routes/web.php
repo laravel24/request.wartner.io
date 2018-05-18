@@ -11,3 +11,7 @@ Route::group(['prefix' => 'request'], function($router) {
     $router->patch('patch', 'RequestController@patchRequest');
     $router->delete('delete', 'RequestController@deleteRequest');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
