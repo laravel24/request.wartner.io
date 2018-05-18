@@ -1,7 +1,7 @@
 # request.wartner.io
 Personal request bin
 
-# `GET` /request
+# `GET` /request (or /get)
 
 ### Request:
 
@@ -45,7 +45,7 @@ Personal request bin
 ```
 ***
 
-# `POST` /request
+# `POST` /request (or /post)
 
 ### Request:
 
@@ -91,7 +91,7 @@ foo=bar
 ```
 ***
 
-# `PUT` /request
+# `PUT` /request (or /put)
 
 ### Request:
 
@@ -137,7 +137,7 @@ foo=baz
 ```
 ***
 
-# `PATCH` /request
+# `PATCH` /request (or /patch)
 
 ### Request:
 
@@ -183,7 +183,7 @@ fooz=bars
 ```
 ***
 
-# `DELETE` /request
+# `DELETE` /request (or /delete)
 
 ### Request:
 
