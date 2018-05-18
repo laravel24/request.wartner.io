@@ -1,6 +1,3 @@
-# request.wartner.io
-Personal request bin
-
 # `GET` /request
 
 **
