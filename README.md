@@ -3,8 +3,6 @@ Personal request bin
 
 # `GET` /request
 
-**
-
 ### Request:
 
 + Url Params:
@@ -48,8 +46,6 @@ Personal request bin
 ***
 
 # `POST` /request
-
-**
 
 ### Request:
 
@@ -97,8 +93,6 @@ foo=bar
 
 # `PUT` /request
 
-**
-
 ### Request:
 
 + Url Params:
@@ -145,8 +139,6 @@ foo=baz
 
 # `PATCH` /request
 
-**
-
 ### Request:
 
 + Url Params:
@@ -192,8 +184,6 @@ fooz=bars
 ***
 
 # `DELETE` /request
-
-**
 
 ### Request:
 
