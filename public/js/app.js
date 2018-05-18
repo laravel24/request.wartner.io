@@ -47793,55 +47793,6 @@ var render = function() {
         )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-check" }, [
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.bin.is_secret,
-              expression: "bin.is_secret"
-            }
-          ],
-          staticClass: "form-check-input",
-          attrs: { type: "checkbox", id: "is_secret" },
-          domProps: {
-            checked: Array.isArray(_vm.bin.is_secret)
-              ? _vm._i(_vm.bin.is_secret, null) > -1
-              : _vm.bin.is_secret
-          },
-          on: {
-            change: function($event) {
-              var $$a = _vm.bin.is_secret,
-                $$el = $event.target,
-                $$c = $$el.checked ? true : false
-              if (Array.isArray($$a)) {
-                var $$v = null,
-                  $$i = _vm._i($$a, $$v)
-                if ($$el.checked) {
-                  $$i < 0 && _vm.$set(_vm.bin, "is_secret", $$a.concat([$$v]))
-                } else {
-                  $$i > -1 &&
-                    _vm.$set(
-                      _vm.bin,
-                      "is_secret",
-                      $$a.slice(0, $$i).concat($$a.slice($$i + 1))
-                    )
-                }
-              } else {
-                _vm.$set(_vm.bin, "is_secret", $$c)
-              }
-            }
-          }
-        }),
-        _vm._v(" "),
-        _c(
-          "label",
-          { staticClass: "form-check-label", attrs: { for: "is_secret" } },
-          [_vm._v("Is Secret Bin?")]
-        )
-      ]),
-      _vm._v(" "),
       _c("br"),
       _vm._v(" "),
       _c(

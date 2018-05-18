@@ -7,10 +7,10 @@
                 <small id="emailHelp" class="form-text text-muted">Please give your bin a unique name.</small>
             </div>
 
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="is_secret" v-model="bin.is_secret">
-                <label class="form-check-label" for="is_secret">Is Secret Bin?</label>
-            </div>
+            <!--<div class="form-check">-->
+                <!--<input type="checkbox" class="form-check-input" id="is_secret" v-model="bin.is_secret">-->
+                <!--<label class="form-check-label" for="is_secret">Is Secret Bin?</label>-->
+            <!--</div>-->
 
             <br>
             <button type="submit" class="btn btn-primary" v-on:click="createBin">Create bin</button>

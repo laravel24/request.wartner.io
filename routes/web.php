@@ -1,8 +1,6 @@
 <?php
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'RequestController@getRequest');
 
 Route::group(['prefix' => 'request'], function($router) {
     $router->get('/', 'RequestController@getRequest');
